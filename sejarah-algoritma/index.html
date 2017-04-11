@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Algoritma dan Flowchart</title>
+	<link rel="shortcut icon" href="../img/puzzle.ico">
+	<link rel="stylesheet" href="../css/jquery.mobile-1.4.5.css">
+	<link rel="stylesheet" href="../css/jqm-demos.css">
+    <link rel="stylesheet" href="../css/jqm.font.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css" />
+	<script src="../js/jquery-2.2.3.js"></script>
+	<script src="../js/jqm-demos.js"></script>
+	<script src="../js/index.js"></script>
+	<script src="../js/jquery.mobile-1.4.5.js"></script>
+</head>
+<body>
+<div data-role="page" class="jqm-demos" data-quicklinks="true">
+
+<!-- header -->
+	<div data-role="header" class="jqm-header">
+		<h2><img src="../img/jqm-logo.png" alt="Mobile Friendly Logo"></h2>
+		<a href="#" class="jqm-navmenu-link ui-btn ui-btn-icon-notext ui-corner-all ui-icon-bars ui-nodisc-icon ui-alt-icon ui-btn-left">Menu</a>
+		<a href="#" class="jqm-search-link ui-btn ui-btn-icon-notext ui-corner-all ui-icon-search ui-nodisc-icon ui-alt-icon ui-btn-right">Search</a>
+	</div>
+<!-- header -->
+	<div role="main" class="ui-content jqm-content">
+		<h1>Sejarah Algoritma</h1>
+		<p>Algortima adalah jantung ilmu Komputer atau informatika. Banyak cabang dari ilmu komputer yang diacu dalan terminologi algoritma,misalnya 
+		algoritma perutean (routing) pesan di dalam jaringan komputer, algoritma berensenham untuk menggambar garis lurus (bidang grafik kumputer), 
+		algoritma Knuth-Morris-Pratt untuk mencari suatu pola di dalam teks (bidang information retrievel), dan sebagainya.</p>
+		<p>Ditinjau dari asal usul kata, kata “algoritma” sendiri mempunyai sejarah yang cukup aneh. 
+		Kata ini tidak muncul di dalam kamus Webster sampai akhir tahun 1957. Orang hanya menemukan kata algorism yang berarti proses menghitung dengan angka Arab. 
+		Anda dikatakan algorist jika Anda menggunakan angka Arab. Para ahli bahasa berusaha menemukan asal kata algorism ini, namun hasilnya kurang memuaskan. 
+		Akhirnya para ahli sejarah matematika menemukan asal mula kata tersebut. 
+		Kata algorism berasal dari nama penulis buku arab yang terkenal, yaitu Abu Ja’afarMuhammad Ibnu Musa al-Khuwarizmi (al-Khuwarizmi dibaca orang barat menjadi 
+		algorism).Al-Khuwarizmi menulis buku yang berjudul Kital al jabar wal-muqabala, yang artinya “Buku pemugaran dan pengurangan” (The book of restoration and 
+		reduction). Dari judul buku ini kita juga memperoleh akar kata “aljabar” (algebra).</p>
+		<p>Perubahan dari kata algorism menjadi algoritm muncul karena kata algorism sering dikelirukan dengan arithmetic, sehingga akhiran –sm beubah menjadi –thm. 
+		Karena perhitungan dengan angka Arab sudah menjadi hal yang biasa/lumrah, maka lambat laun kata algorithm berangsur-angsur dipakai sebagai metode perhitungan (
+		komputasi) secara umum, sehingga kehilangan makna aslinya. Dalam bahasa Indonesia, kata algorithm diserap menjadi “algoritma”.</p>
+		<img src="../img/alkhawarizmi.png" alt="al khawarizmi">
+		<div class="jqm-catatan"><p>Gambar al-Khuwarizmi dalam sebuah perangko</p></div>
+		<p>Pada tahun 1950, kata algoritma perama kali digunakan pada “algoritma Euclidean” (Euclid’s algorithm). Euclid, seorang matematikawan Yunani (lahir pada tahun 350 M), 
+		dalam bukunya yang berjudul Element menuliskan langkah-langkah untuk menemukan pembagi bersama terbesar (Common Greatest Divisor atau GCD), dari dua buah bilangan bulat, m dan n 
+		(tapi Euclid tidak menyebut metodenya itu sebagai algoritma, baru abad modernlah ornag-orang menybut metodenya itu sebagai “algoritma Euclidean”), Pembagi terbesar dari dua buah 
+		bilangan bulat tak-negatif adalah bilangan bulat positif terbesar yang habis membagi kedua bilangan tersebut.</p>
+	</div>
+
+
+<!-- navmenu panel -->
+    <div data-role="panel" class="jqm-navmenu-panel" data-position="left" data-display="overlay" data-theme="a">
+	    	<ul class="jqm-list ui-alt-icon ui-nodisc-icon">
+<li data-filtertext="homepage" data-icon="home"><a href=".././">Home</a></li>
+<li data-role="collapsible" data-enhanced="true" data-collapsed-icon="carat-d" data-expanded-icon="carat-u" data-iconpos="right" data-inset="false" class="ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed">
+	<h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">
+		<a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-right ui-btn-inherit ui-icon-carat-d">
+		    Algoritma<span class="ui-collapsible-heading-status"> click to expand contents</span>
+		</a>
+	</h3>
+	<div class="ui-collapsible-content ui-body-inherit ui-collapsible-content-collapsed" aria-hidden="true">
+		<ul>
+			<li data-filtertext="pengertian algoritma"><a href="../pengertian-algoritma/" data-ajax="false">Apakah Algoritma Itu?</a></li>
+			<li data-filtertext="contoh algoritma"><a href="../contoh-algoritma/" data-ajax="false">Contoh Algoritma</a></li>
+			<li data-filtertext="sejarah algoritma"><a href="../sejarah-algoritma/" data-ajax="false">Sejarah Algoritma</a></li>
+			<li data-filtertext="struktur dasar algoritma"><a href="../struktur-dasar/" data-ajax="false">Struktur Dasar Algoritma</a></li>
+		</ul>
+	</div>
+</li>
+<li data-role="collapsible" data-enhanced="true" data-collapsed-icon="carat-d" data-expanded-icon="carat-u" data-iconpos="right" data-inset="false" class="ui-collapsible ui-collapsible-themed-content ui-collapsible-collapsed">
+	<h3 class="ui-collapsible-heading ui-collapsible-heading-collapsed">
+		<a href="#" class="ui-collapsible-heading-toggle ui-btn ui-btn-icon-right ui-btn-inherit ui-icon-carat-d">
+			Flowchart<span class="ui-collapsible-heading-status"> click to expand contents</span>
+		</a>
+	</h3>
+	<div class="ui-collapsible-content ui-body-inherit ui-collapsible-content-collapsed" aria-hidden="true">
+		<ul>
+			<li data-filtertext="pengertian flowchart"><a href="../pengertian-flowchart/" data-ajax="false">Apakah Flowchart Itu?</a></li>
+			<li data-filtertext="pedoman flowchart"><a href="../pedoman-flowchart/" data-ajax="false">Pedoman Flowchart</a></li>
+			<li data-filtertext="jenis flowchart"><a href="../jenis-flowchart/" data-ajax="false">Jenis FLowchart</a></li>
+			<li data-filtertext="simbol flowchart"><a href="../simbol-flowchart/" data-ajax="false">Simbol FLowchart</a></li>
+		</ul>
+	</div>
+</li>
+<li data-filtertext="simulasi"><a href="../simulasi/" data-ajax="false">Simulasi</a></li>
+<li data-filtertext="quiz"><a href="../quiz/" data-ajax="false">Quiz</a></li>
+<li data-filtertext="daftar-pustaka"><a href="../daftar-pustaka/" data-ajax="false">Daftar Pustaka</a></li>
+
+		     </ul>
+		</div><!-- /panel -->
+
+<!-- navmenu panel -->
+
+
+<!-- footer -->		
+	<div data-role="footer" data-position="fixed" data-tap-toggle="false" class="jqm-footer">
+		<p>Algoritma dan Flowchart</p>
+		<p>Copyright 2016 The AHS Foundation</p>
+	</div>
+<!-- /footer -->
+
+</div><!-- /page -->
+
+</body>
+</html>
